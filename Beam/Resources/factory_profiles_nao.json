@@ -1,0 +1,294 @@
+[
+ {
+  "id": "Alpinisme",
+  "lampName": "Alpinisme",
+  "displayName": "Mountaineering",
+  "staticVariants": [
+   {
+    "level": 1,
+    "narrow": 67,
+    "wide": 53,
+    "autonomy": 720,
+    "behavior": 2
+   },
+   {
+    "level": 2,
+    "narrow": 154,
+    "wide": 123,
+    "autonomy": 360,
+    "behavior": 2
+   },
+   {
+    "level": 3,
+    "narrow": 329,
+    "wide": 263,
+    "autonomy": 180,
+    "behavior": 2
+   }
+  ],
+  "dynamicVariants": [
+   {
+    "level": 1,
+    "behavior": 2,
+    "narrowStartDistance": 2,
+    "narrowMax": 300,
+    "wideMax": 240,
+    "wideMaxWhenNarrowMax": 0,
+    "readingThreshold": 30,
+    "autonomy": 1080
+   },
+   {
+    "level": 2,
+    "behavior": 2,
+    "narrowStartDistance": 2,
+    "narrowMax": 529,
+    "wideMax": 423,
+    "wideMaxWhenNarrowMax": 0,
+    "readingThreshold": 30,
+    "autonomy": 720
+   },
+   {
+    "level": 3,
+    "behavior": 2,
+    "narrowStartDistance": 2,
+    "narrowMax": 873,
+    "wideMax": 698,
+    "wideMaxWhenNarrowMax": 0,
+    "readingThreshold": 30,
+    "autonomy": 480
+   }
+  ]
+ },
+ {
+  "id": "Bivouac",
+  "lampName": "Bivouac",
+  "displayName": "Bivouac",
+  "staticVariants": [
+   {
+    "level": 1,
+    "narrow": 0,
+    "wide": 68,
+    "autonomy": 1080,
+    "behavior": 5
+   },
+   {
+    "level": 2,
+    "narrow": 0,
+    "wide": 435,
+    "autonomy": 240,
+    "behavior": 5
+   }
+  ],
+  "dynamicVariants": [
+   {
+    "level": 1,
+    "behavior": 5,
+    "narrowStartDistance": 2,
+    "narrowMax": 0,
+    "wideMax": 458,
+    "wideMaxWhenNarrowMax": 0,
+    "readingThreshold": 20,
+    "autonomy": 900
+   },
+   {
+    "level": 2,
+    "behavior": 5,
+    "narrowStartDistance": 2,
+    "narrowMax": 0,
+    "wideMax": 953,
+    "wideMaxWhenNarrowMax": 0,
+    "readingThreshold": 20,
+    "autonomy": 390
+   }
+  ]
+ },
+ {
+  "id": "Multi-Activities",
+  "lampName": "Multi-Activities",
+  "displayName": "Multi-activity",
+  "staticVariants": [
+   {
+    "level": 1,
+    "narrow": 133,
+    "wide": 66,
+    "autonomy": 480,
+    "behavior": 1
+   },
+   {
+    "level": 2,
+    "narrow": 813,
+    "wide": 406,
+    "autonomy": 90,
+    "behavior": 1
+   }
+  ],
+  "dynamicVariants": [
+   {
+    "level": 1,
+    "behavior": 1,
+    "narrowStartDistance": 2,
+    "narrowMax": 353,
+    "wideMax": 353,
+    "wideMaxWhenNarrowMax": 0,
+    "readingThreshold": 30,
+    "autonomy": 900
+   },
+   {
+    "level": 2,
+    "behavior": 1,
+    "narrowStartDistance": 2,
+    "narrowMax": 1000,
+    "wideMax": 1000,
+    "wideMaxWhenNarrowMax": 0,
+    "readingThreshold": 30,
+    "autonomy": 390
+   }
+  ]
+ },
+ {
+  "id": "Trail-running",
+  "lampName": "Trail-running",
+  "displayName": "Trail running",
+  "staticVariants": [
+   {
+    "level": 1,
+    "narrow": 40,
+    "wide": 80,
+    "autonomy": 720,
+    "behavior": 3
+   },
+   {
+    "level": 2,
+    "narrow": 77,
+    "wide": 155,
+    "autonomy": 420,
+    "behavior": 3
+   },
+   {
+    "level": 3,
+    "narrow": 197,
+    "wide": 394,
+    "autonomy": 180,
+    "behavior": 3
+   }
+  ],
+  "dynamicVariants": [
+   {
+    "level": 1,
+    "behavior": 3,
+    "narrowStartDistance": 1,
+    "narrowMax": 268,
+    "wideMax": 375,
+    "wideMaxWhenNarrowMax": 0,
+    "readingThreshold": 30,
+    "autonomy": 960
+   },
+   {
+    "level": 2,
+    "behavior": 3,
+    "narrowStartDistance": 1,
+    "narrowMax": 396,
+    "wideMax": 556,
+    "wideMaxWhenNarrowMax": 0,
+    "readingThreshold": 30,
+    "autonomy": 720
+   },
+   {
+    "level": 3,
+    "behavior": 3,
+    "narrowStartDistance": 1,
+    "narrowMax": 706,
+    "wideMax": 988,
+    "wideMaxWhenNarrowMax": 0,
+    "readingThreshold": 30,
+    "autonomy": 450
+   }
+  ]
+ },
+ {
+  "id": "Trekking",
+  "lampName": "Trekking",
+  "displayName": "Trekking",
+  "staticVariants": [
+   {
+    "level": 1,
+    "narrow": 18,
+    "wide": 62,
+    "autonomy": 960,
+    "behavior": 4
+   },
+   {
+    "level": 2,
+    "narrow": 208,
+    "wide": 697,
+    "autonomy": 120,
+    "behavior": 4
+   }
+  ],
+  "dynamicVariants": [
+   {
+    "level": 1,
+    "behavior": 4,
+    "narrowStartDistance": 2,
+    "narrowMax": 148,
+    "wideMax": 495,
+    "wideMaxWhenNarrowMax": 0,
+    "readingThreshold": 20,
+    "autonomy": 960
+   },
+   {
+    "level": 2,
+    "behavior": 4,
+    "narrowStartDistance": 2,
+    "narrowMax": 295,
+    "wideMax": 983,
+    "wideMaxWhenNarrowMax": 0,
+    "readingThreshold": 20,
+    "autonomy": 570
+   }
+  ]
+ },
+ {
+  "id": "VTT",
+  "lampName": "VTT",
+  "displayName": "Mountain biking",
+  "staticVariants": [
+   {
+    "level": 1,
+    "narrow": 71,
+    "wide": 49,
+    "autonomy": 360,
+    "behavior": 6
+   },
+   {
+    "level": 2,
+    "narrow": 533,
+    "wide": 373,
+    "autonomy": 120,
+    "behavior": 6
+   }
+  ],
+  "dynamicVariants": [
+   {
+    "level": 1,
+    "behavior": 6,
+    "narrowStartDistance": 2,
+    "narrowMax": 1000,
+    "wideMax": 700,
+    "wideMaxWhenNarrowMax": 0,
+    "readingThreshold": 30,
+    "autonomy": 360
+   },
+   {
+    "level": 2,
+    "behavior": 6,
+    "narrowStartDistance": 2,
+    "narrowMax": 1000,
+    "wideMax": 700,
+    "wideMaxWhenNarrowMax": 0,
+    "readingThreshold": 30,
+    "autonomy": 150
+   }
+  ]
+ }
+]
